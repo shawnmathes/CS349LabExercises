@@ -85,6 +85,8 @@ public class PagerPanel extends JPanel {
             }
         });
         
+        currentTextField.setColumns(3);
+        
         add(currentTextField);
         add(totalLabel);
         add(prevButton);
